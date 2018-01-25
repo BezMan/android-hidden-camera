@@ -119,6 +119,8 @@ public class DemoCamFragment extends HiddenCameraFragment {
             case CameraError.ERROR_CAMERA_OPEN_FAILED:
                 //Camera open failed. Probably because another application
                 //is using the camera
+
+                //maybe getContext()//
                 Toast.makeText(getActivity(), "Cannot open camera.", Toast.LENGTH_LONG).show();
                 break;
             case CameraError.ERROR_IMAGE_WRITE_FAILED:

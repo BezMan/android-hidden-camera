@@ -66,6 +66,7 @@ public class DemoCamService extends HiddenCameraService {
 
                 startCamera(cameraConfig);
 
+                //maybe in thread//
                 new android.os.Handler().postDelayed(new Runnable() {
                     @Override
                     public void run() {
