@@ -47,7 +47,7 @@ if (ActivityCompat.checkSelfPermission(getActivity(), Manifest.permission.CAMERA
 }
 ```
 
-- If you are capturing the image from the service, you have to check if the application has the draw ver other application permission or not? If the permission is not available, application can ask user to grat the permission using `HiddenCameraUtils.openDrawOverPermissionSetting()`.
+- If you are capturing the image from the service, you have to check if the application has the draw over other application permission or not? If the permission is not available, application can ask user to grant the permission using `HiddenCameraUtils.openDrawOverPermissionSetting()`.
 
 ```
 if (ActivityCompat.checkSelfPermission(this, Manifest.permission.CAMERA) == PackageManager.PERMISSION_GRANTED) {
